@@ -1,0 +1,25 @@
+* {
+    font-family: 'Now Alt';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.section {
+    height : 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+}
+
+.ui.small.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.ui[class*="top fixed"].menu {
+    background-color: #B9CDDA;
+    border: none;
+}
