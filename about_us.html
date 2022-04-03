@@ -2,9 +2,10 @@
 <html>
 	<head>
 		<meta charset="utf-8">
-    <title>Abous US</title>
+    <title>Abous Us</title>
 		<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet" type="text/css">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		<link href="about_us.css" rel="stylesheet" type="text/css">
 	</head>
 	<body>
@@ -15,9 +16,9 @@
 				<div class="item">
 					<img src="/images/logo.png">
 				</div>
-				<a class="item">about us</a>
-				<a class="item">about scooter</a>
-				<a class="item">Sign-in</a>
+				<a class="item" id='about_us'>about us</a>
+				<a class="item" id='about_scooter'>about scooter</a>
+				<a class="item" id='sign'>Sign-in</a>
 			</div>
 			<!--navbar-------------------------------------------------------------------------------------------------------------------->
 			<div class="section" id="section1">
@@ -42,9 +43,10 @@
 				</div>
 			</div>
 			<div class="section" id="section2">
+				<h1>OUR TEAM</h1>
 				<!--memeber cards------------------------------------------------------------------------------>
 				<!--https://semantic-ui.com/views/card.html#cards-->
-				<div class="ui link cards">
+				<div class="ui link cards" data-aos="zoom-out-up" data-aos-duration="800">
 					<div class="card">
 						<!--for second hidden img to show (height width will collapse)-->
 						<div class="image">
@@ -181,10 +183,12 @@
 				<p class="page5">page5</p>
 			</div>
 		</div>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"
-		   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
-		<script src="semantic/dist/semantic.min.js"></script>
+			integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script src="./source/js/about_us.js"></script>
+		<script src="semantic/dist/semantic.min.js"></script>
 	</body>
 </html>
+
