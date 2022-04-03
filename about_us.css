@@ -28,3 +28,86 @@
     border: none;
 }
 
+.column {
+    /*border: solid ;
+    border-color: aqua;*/
+    color: black!important;
+}
+
+.ui.middle.aligned.three.column.grid {
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    align-items: center;
+}
+
+.app_topic {
+    height: 80%;
+    align-items: center;
+}
+
+.three.column.row {
+    height: 30vh;
+}
+
+.cc.amazon.pay.icon {
+    size: 2px;
+}
+
+i {
+    /*padding: 20px 0px 80px 0px;*/
+    padding: 5% 0% 13% 0% ;
+}
+
+/*page 4 start***************************************************************************************************/
+#app_demo1 {
+    border: solid;
+    border-color: aqua;
+    height: 100vh;
+    width: 100vw;
+}
+#app_demo1_row1 >* {
+    border: solid;
+    border-color: pink;
+    height: 100vh;
+    align-items: center;
+    text-align: left;
+}
+
+#description1 {
+    padding: 2vh 2vh 2vh 2vh;
+    margin-top: 20vh;
+}
+
+#description1_img {
+    margin-top: 15vh;
+    background-color: transparent;
+}
+/*page 4 end***************************************************************************************************/
+/*page 5 start***************************************************************************************************/
+#app_demo2 {
+    border: solid;
+    border-color: aqua;
+    height: 100vh;
+    width: 100vw;
+}
+#app_demo2_row2>* {
+    border: solid;
+    border-color: pink;
+    height: 100vh;
+    align-items: center;
+    text-align: left;
+}
+
+#description2 {
+    padding: 2vh 2vh 2vh 2vh;
+    margin-top: 20vh;
+}
+
+#description2_img {
+    margin-top: 15vh;
+    margin-left: 15vh;
+    /*background-color: transparent;
+    justify-content : flex-end;*/ /*not taking effect??*/
+}
+/*page 5 end***************************************************************************************************/
