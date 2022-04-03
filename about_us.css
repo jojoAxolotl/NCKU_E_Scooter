@@ -13,6 +13,10 @@
     color: gray;
 }
 
+#section2{
+  padding-top:10%;
+}
+
 .ui.small.image {
     display: block;
     width: 100%;
@@ -23,3 +27,4 @@
     background-color: #B9CDDA;
     border: none;
 }
+
