@@ -3,38 +3,38 @@
 	<head>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		
+
                 <title>Abous Us</title>
 		<link href="https://i.imgur.com/plNNHCz.png" rel="shortcut icon">
 		<link href="about_us.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet" type="text/css">
 		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-		
+
 	</head>
 	<body>
-		<div id="fullpage">
-			<!--navbar-------------------------------------------------------------------------------------------------------------------->
-			<!--may add popup effect :https://semantic-ui.com/modules/popup.html#/examples-->
-			<div class="ui top fixed menu">
-				<div class="item">
-					<img src="https://i.imgur.com/plNNHCz.png">
-				</div>
-				<a class="item" id='about_us'>About Us</a>
-				<a class="item" id='about_scooter'>About EScooter</a>
-				<a class="item" id='app'>Our App</a>
+		<!--navbar-------------------------------------------------------------------------------------------------------------------->
+		<!--may add popup effect :https://semantic-ui.com/modules/popup.html#/examples-->
+		<div class="ui top fixed menu">
+			<div class="item">
+				<img src="https://i.imgur.com/plNNHCz.png">
 			</div>
+			<a class="item" id='home'>Home</a>
+			<a class="item" id='about_us'>About Us</a>
+			<a class="item" id='about_scooter'>About EScooter</a>
+			<a class="item" id='app'>Our App</a>
+		</div>
+
+		<div id="fullpage">
 			<!--navbar-------------------------------------------------------------------------------------------------------------------->
 			<div class="section" id="section1">
 				<p class="page1">page1</p>
-			    
-				
 			</div>
 			<div class="section" id="section2">
 				<h1>OUR TEAM</h1>
 				<!--memeber cards------------------------------------------------------------------------------>
 				<!--https://semantic-ui.com/views/card.html#cards-->
-				<div class="ui link cards" data-aos="zoom-out-up" data-aos-duration="800">
+				<div class="ui link cards" data-aos="zoom-out-up" data-aos-duration="500">
 					<div class="card">
 						<!--for second hidden img to show (height width will collapse)-->
 						<div class="image">
@@ -158,44 +158,44 @@
 			<div class="section" id="section3">
 				<!--<p class="page3">page3</p>-->
 					<div class="ui middle aligned three column grid" id="p3_inner_blk"> <!--vertically padded not taking effect??-->
-						<div class="sixteen wide column" id = "app_topic">
+						<div class="sixteen wide column" id = "app_topic"  data-aos="zoom-out">
 							<h1 class="ui grey header">
 								NCKU Sharing Scooter
 							</h1>
 							<p class="ui sub header">
-								Praesent commodo cursus magna, vel scelerisque nisl consectetur et. 
+								Praesent commodo cursus magna, vel scelerisque nisl consectetur et.
 								<br> pharetra augue.
 								Donec id elit non mi.</p>
 						</div>
 						<div class="three column row">
-							<div class="column" id = "app_col11">
+							<div class="column" id = "app_col11" data-aos="fade-down">
 								<i class="huge grey user circle icon"></i>
 								<h1 class="ui header">All the need that you want</h1>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime hic doloremque rerum totam cupiditate veritatis suscipit repellat placeat fuga!</p>
 							</div>
-							<div class="column" id = "app_col12">
+							<div class="column" id = "app_col12" data-aos="fade-down">
 								<i class="huge grey calendar alternate icon"></i>
 								<h1 class="ui header">All the need that you want</h1>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime hic doloremque rerum totam cupiditate veritatis suscipit repellat placeat fuga!</p>
 							</div>
-							<div class="column" id = "app_col13">
+							<div class="column" id = "app_col13" data-aos="fade-down">
 								<i class="huge grey trophy icon"></i>
 								<h1 class="ui header">All the need that you want</h1>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime hic doloremque rerum totam cupiditate veritatis suscipit repellat placeat fuga!</p>
 							</div>
 						</div>
 						<div class="three column padded row">
-							<div class="column" id = "app_col21">
+							<div class="column" id = "app_col21" data-aos="fade-up">
 								<i class="huge grey map marker alternate icon"></i>
 								<h1 class="ui header">All the need that you want</h1>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime hic doloremque rerum totam cupiditate veritatis suscipit repellat placeat fuga!</p>
 							</div>
-							<div class="column" id = "app_col22">
+							<div class="column" id = "app_col22" data-aos="fade-up">
 								<i class="huge grey chart bar icon"></i>
 								<h1 class="ui header">All the need that you want</h1>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime hic doloremque rerum totam cupiditate veritatis suscipit repellat placeat fuga!</p>
 							</div>
-							<div class="column" id = "app_col23">
+							<div class="column" id = "app_col23" data-aos="fade-up">
 								<i class="huge  grey graduation cap icon"></i>
 								<h1 class="ui header">All the need that you want</h1>
 								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime hic doloremque rerum totam cupiditate veritatis suscipit repellat placeat fuga!</p>
@@ -214,7 +214,7 @@
 								<p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam ducimus laudantium voluptatum magnam assumenda esse nihil accusamus, perferendis beatae itaque.</p>
 							</div>
 						</div>
-						<div class="column" id= "app_demo1_col2">
+						<div class="column" id= "app_demo1_col2" data-aos="fade-left">
 							<!--<img  id ="demo1_img" src="./source/img/avatar.png">-->
 						</div>
 					</div>
@@ -223,7 +223,7 @@
 			<!--page 5 start--><div class="section" id="section5">
 				<div class="ui middle aligned two column grid" id="app_demo2">
 					<div class="three column centered row" id="app_demo2_row1">
-						<div class="column" id="app_demo2_col2">
+						<div class="column" id="app_demo2_col2" data-aos="fade-right">
 						</div>
 						<div class="column" id="app_demo2_col1">
 							<div class="ui sizer vertical segment" id="description2">
@@ -246,7 +246,7 @@
 									magnam assumenda esse nihil accusamus, perferendis beatae itaque.</p>
 							</div>
 						</div>
-						<div class="column" id="app_demo3_col2">
+						<div class="column" id="app_demo3_col2" data-aos="fade-left">
 							<!--<img  id ="demo1_img" src="./source/img/avatar.png">-->
 						</div>
 					</div>
@@ -257,7 +257,7 @@
 			<div class="section" id="section7">
 				<div class="ui middle aligned two column grid" id="app_demo4">
 					<div class="three column centered row" id="app_demo4_row1">
-						<div class="column" id="app_demo4_col2">
+						<div class="column" id="app_demo4_col2" data-aos="fade-right">
 						</div>
 						<div class="column" id="app_demo4_col1">
 							<div class="ui sizer vertical segment" id="description4">
@@ -281,7 +281,7 @@
 									magnam assumenda esse nihil accusamus, perferendis beatae itaque.</p>
 							</div>
 						</div>
-						<div class="column" id="app_demo5_col2">
+						<div class="column" id="app_demo5_col2" data-aos="fade-left">
 							<!--<img  id ="demo1_img" src="./source/img/avatar.png">-->
 						</div>
 					</div>
@@ -292,7 +292,7 @@
 			<div class="section" id="section9">
 				<div class="ui middle aligned two column grid" id="app_demo6">
 					<div class="three column centered row" id="app_demo6_row1">
-						<div class="column" id="app_demo6_col2">
+						<div class="column" id="app_demo6_col2" data-aos="fade-right">
 						</div>
 						<div class="column" id="app_demo6_col1">
 							<div class="ui sizer vertical segment" id="description6">
@@ -309,7 +309,7 @@
 		<script src="https://code.jquery.com/jquery-3.1.1.min.js"
 			integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
-		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script src="./source/js/about_us.js"></script>
 		<script src="semantic/dist/semantic.min.js"></script>
 	</body>
