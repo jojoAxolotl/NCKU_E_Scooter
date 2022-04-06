@@ -1,6 +1,5 @@
 * {
-    font-family: 'Maven Pro',
-    sans-serif !important;
+    font-family: 'Maven Pro','sans-serif';
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -12,7 +11,7 @@
     justify-content: center;
     align-items: center;
     color: black;
-    
+
 }
 #section1{
     /*background-image: url('./source/img/backdrop1-10.png');
@@ -60,8 +59,8 @@
 }
 
 .ui[class*="top fixed"].menu {
-    /*background-color: #B9CDDA;*/
-    background-color: transparent;
+    background-color: white;
+    /*background-color: transparent;*/
     align-items: center;
     /*border: none;*/
 }
@@ -119,7 +118,7 @@ i {
     background-image: url(./source/img/p4_background.png);
     background-repeat: no-repeat;
     background-size: cover;
-} 
+}
 
 #app_demo1 {
     /*border: solid;
