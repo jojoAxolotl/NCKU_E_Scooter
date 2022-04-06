@@ -57,7 +57,3 @@ $(document).on('click', '#about_scooter', function(){
   fullpage_api.moveTo('page3');
 });
 
-$(document).on('click', '#app', function(){
-  fullpage_api.moveTo('page4');
-});
-
