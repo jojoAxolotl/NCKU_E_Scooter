@@ -10,11 +10,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: gray;
+    color: black;
+    
 }
+#section1{
+    background-image: url('./source/img/backdrop1-10.png');
+    background-size:cover;
+    opacity: 0.8;
+}
+
+
 
 #section2{
   padding-top:10%;
+  background-image: url('./source/img/backdrop2-01.png');
+  background-size:cover;
+  opacity: 0.8;
 }
 
 .ui.small.image {
