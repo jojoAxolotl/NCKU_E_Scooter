@@ -10,23 +10,22 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    color: gray;
+    color: black;
+    
+}
+#section1{
+    background-image: url('./source/img/backdrop1-10.png');
+    background-size:cover;
+    opacity: 0.8;
 }
 
-#main_image  { background-image: url(./source/img/page1-01.png) }
-#main_image{
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-    position: absolute;
-    width: 1000px;
-    height: 500px;
-    top:100px;
-    left:170px;
-}
+
 
 #section2{
   padding-top:10%;
+  background-image: url('./source/img/backdrop2-01.png');
+  background-size:cover;
+  opacity: 0.8;
 }
 
 .ui.small.image {
