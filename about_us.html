@@ -9,8 +9,8 @@
 		<link href="about_us.css" rel="stylesheet" type="text/css">
 		<link rel="stylesheet" type="text/css" href="semantic/dist/semantic.min.css">
 		<link href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" rel="stylesheet" type="text/css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Maven+Pro:wght@600&family=Source+Code+Pro:wght@900&display=swap" rel="stylesheet">
 	</head>
@@ -25,34 +25,36 @@
 				<a class="ui inverted primary button" id='about_us'>About Us</a>
 				<div class="pink right menu">
 					<!--<a class="ui inverted primary button" id='about_scooter'>About EScooter</a>-->
-					<a class="item" id = "github_icon" href="https://github.com/santaboi?tab=repositories">
+					<a class="item" id = "github_icon" href="https://github.com/santaboi/NCKU_E_Scooter">
 						<i class="pink big github icon">
 						</i>
 					</a>
-					<a class="ui inverted pink button" id='app'>Download</a>
+					<a class="ui inverted blue button" id='app'>Download</a>
 					<div class="ui simple dropdown item" id = "nav_drop_down">
 						About EScooter2 <i class="dropdown icon"></i>
 						<div class="ui menu">
-							<a class="item" >Avatar</a>
-							<a class="item">Pre-Booking</a>
-							<a class="item">LeaderBoard</a>
-							<a class="item">Scooter Location</a>
-							<a class="item">Statistical Forcasting</a>
-							<a class="item">Earn Bonus Time</a>
-
+							<!--跳轉要改一下-->>
+							<a class="item" href="#section4">Avatar</a>
+							<a class="item" href="#section5">Pre-Booking</a>
+							<a class="item" href="#section6">LeaderBoard</a>
+							<a class="item" href="#section7">Scooter Location</a>
+							<a class="item" href="#section8">Statistical Forcasting</a>
+							<a class="item" href="#section9">Earn Bonus Time</a>
 						</div>
 					</div>
 				</div>
 			</div>
 		<!--navbar-------------------------------------------------------------------------------------------------------------------->
 
-    <div id="fullpage">
+		<div id="fullpage">
 			<div class="section" id="section1">
-        <!--https://semantic-ui.com/modules/transition.html--type writter effect -->
-        <div class="typewriter" id="p1_title">
-          <h1 class="typed-out">Talented Team from NCKU</h1>
-        </div>
-        <div id="main_image"></div>
+				<!--https://semantic-ui.com/modules/transition.html--type writter effect -->
+				<div class="ui huge header" id = "p1_title">
+					<span>Talented Team from NCKU</span>
+				</div>
+				<!--type writer : https://css-tricks.com/snippets/css/typewriter-effect/-->
+				<p class="line-1 anim-typewriter">NCKU Sharing Scooter app</p>
+				<div id="main_image"></div>
 			</div>
 			<div class="section" id="section2">
 				<h1>OUR TEAM</h1>
@@ -243,6 +245,10 @@
 						</div>
 					</div>
 				</div>
+				<!--https://semantic-ui.com/modules/progress.html#/usage--check this for progress bar-->
+				<div class="ui active progress" id = "section_progress">
+					<div class="bar"></div>
+				</div>
 			</div><!--page 4 end-->
 			<!--page 5 start--><div class="section" id="section5">
 				<div class="ui middle aligned two column grid" id="app_demo2">
@@ -335,6 +341,7 @@
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.1.2/fullpage.min.js"></script>
 		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 		<script src="./source/js/about_us.js"></script>
-    <script src="semantic/dist/semantic.min.js"></script> 
+		<script src="semantic/dist/semantic.min.js"></script>
+		<script src="./source/js/type_writer.js"></script>
 	</body>
 </html>
