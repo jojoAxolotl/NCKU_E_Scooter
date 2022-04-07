@@ -24,13 +24,55 @@
 
 #p1_title {
     position: absolute;
-    top: 20%;
+    top: 14%;
     left: 10vw;
-    font-weight: 1000;
-    font-size: 3em;
+    font-weight: 1500;
+    font-size: 3.5em;
     color: black;
+    text-decoration-line: underline;
+}
+/*******************************type writer*************************************************************/
+.line-1 {
+    position: relative;
+    top: 24%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    color: #faa307;
+    font-size: 5em;
+    text-align: center;
+    margin-right: 33vw;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
 }
 
+/* Animation */
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
+}
+
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 15em;
+    }
+}
+
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
+
+    to {
+        border-right-color: transparent;
+    }
+}
+/*******************************type writer*************************************************************/
 #main_image {
     background: url(./source/img/group_photo-10.png);
     background-repeat: no-repeat;
@@ -50,7 +92,7 @@
 }
 
 
-.ui.inverted.pink.button {
+.ui.inverted.blue.button {
     align-items: flex-end;
     justify-content: center;
     text-align: center;
@@ -58,9 +100,9 @@
 }
 
 .ui.menu.fixed .item:last-child {
-    color: #ff8edf!important;
+    color: #54c8ff!important;
     border: solid;
-    border-color: #ff8edf;
+    border-color: #54c8ff;
     border-radius: 3px;
     margin-right: 2vw;
     margin-left: 1.3vw;
@@ -92,7 +134,7 @@
 }
 #dog_icon {
     display: block;
-    width: 100%;
+    /*width: 100%;*/
     height: auto;
 }
 
