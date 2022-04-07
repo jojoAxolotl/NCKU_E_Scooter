@@ -29,7 +29,7 @@ new fullpage('#fullpage', {
     //.............................................
     //....Your other options....
     //..............................................
-    anchors: ['page1', 'page2', 'page3', 'page4'],
+    anchors: ['page1', 'page2', 'page3', 'page4', 'page5', 'page6', 'page7', 'page8', 'page9'],
     onLeave: function(){
         jQuery('.section [data-aos]').removeClass("aos-animate");
     },
@@ -55,6 +55,30 @@ $(document).on('click', '#about_us', function(){
 
 $(document).on('click', '#about_scooter', function(){
   fullpage_api.moveTo('page3');
+});
+
+$(document).on('click', '#avatar', function(){
+  fullpage_api.moveTo('page4');
+});
+
+$(document).on('click', '#booking', function(){
+  fullpage_api.moveTo('page5');
+});
+
+$(document).on('click', '#leaderboard', function(){
+  fullpage_api.moveTo('page6');
+});
+
+$(document).on('click', '#location', function(){
+  fullpage_api.moveTo('page7');
+});
+
+$(document).on('click', '#statistical', function(){
+  fullpage_api.moveTo('page8');
+});
+
+$(document).on('click', '#bonus', function(){
+  fullpage_api.moveTo('page9');
 });
 
 $('.ui.dropdown')
