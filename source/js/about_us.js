@@ -57,5 +57,9 @@ $(document).on('click', '#about_scooter', function(){
   fullpage_api.moveTo('page3');
 });
 
+
 $('.ui.dropdown')
   .dropdown();
+
+
+
