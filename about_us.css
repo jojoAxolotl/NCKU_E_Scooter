@@ -21,6 +21,7 @@
     background-color: #f8edeb!important;
 }
 
+
 #p1_title {
     position: absolute;
     top: 20%;
@@ -40,9 +41,41 @@
     top: 35%;
     right: 0%;
 }
+.ui.top.fixed.menu {
+    background-color: transparent!important;
+}
+
+.ui.secondary.inverted.menu {
+    height: 10vh;
+}
+
 
 .ui.inverted.pink.button {
     align-items: flex-end;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+.ui.menu.fixed .item:last-child {
+    color: #ff8edf!important;
+    border: solid;
+    border-color: #ff8edf;
+    border-radius: 3px;
+    margin-right: 2vw;
+    margin-left: 1.3vw;
+}
+
+#github_icon {
+    color: black!important;
+    margin: 0;
+}
+
+#home {
+    margin-left: 2vw;
+}
+#about_us {
+    margin-left: 1vw;
 }
 
 #section2{
@@ -53,6 +86,11 @@
 }
 
 .ui.small.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+#dog_icon {
     display: block;
     width: 100%;
     height: auto;
