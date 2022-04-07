@@ -24,34 +24,55 @@
 
 #p1_title {
     position: absolute;
-    top: 20%;
+    top: 14%;
     left: 10vw;
-    font-weight: 1000; 
+    font-weight: 1500;
+    font-size: 3.5em;
     color: black;
+    text-decoration-line: underline;
+}
+/*******************************type writer*************************************************************/
+.line-1 {
+    position: relative;
+    top: 25%;
+    width: 24em;
+    margin: 0 auto;
+    border-right: 2px solid rgba(255, 255, 255, .75);
+    color: #54c8ff;
+    font-size: 5em;
+    text-align: center;
+    margin-right: 33vw;
+    white-space: nowrap;
+    overflow: hidden;
+    transform: translateY(-50%);
 }
 
-.typewriter h1 {
-  font-size: 3.5em;
-  overflow: hidden;  
-  border-right: .15em solid orange; 
-  white-space: nowrap;
-  margin: 0 auto; 
-  letter-spacing: .05em;
-  animation:
-    typing 3.5s steps(40, end),
-    blink-caret .75s step-end infinite;
+/* Animation */
+.anim-typewriter {
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+        blinkTextCursor 500ms steps(44) infinite normal;
 }
 
-@keyframes typing {
-  from { width: 0 }
-  to { width: 100% }
+@keyframes typewriter {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 13em;
+    }
 }
 
-@keyframes blink-caret {
-  from, to { border-color: transparent }
-  50% { border-color: orange; }
-}
+@keyframes blinkTextCursor {
+    from {
+        border-right-color: rgba(255, 255, 255, .75);
+    }
 
+    to {
+        border-right-color: transparent;
+    }
+}
+/*******************************type writer*************************************************************/
 #main_image {
     background: url(./source/img/group_photo-10.png);
     background-repeat: no-repeat;
@@ -71,7 +92,7 @@
 }
 
 
-.ui.inverted.pink.button {
+.ui.inverted.blue.button {
     align-items: flex-end;
     justify-content: center;
     text-align: center;
@@ -79,9 +100,9 @@
 }
 
 .ui.menu.fixed .item:last-child {
-    color: #ff8edf!important;
+    color: #54c8ff!important;
     border: solid;
-    border-color: #ff8edf;
+    border-color: #54c8ff;
     border-radius: 3px;
     margin-right: 2vw;
     margin-left: 1.3vw;
@@ -113,7 +134,7 @@
 }
 #dog_icon {
     display: block;
-    width: 100%;
+    /*width: 100%;*/
     height: auto;
 }
 
@@ -136,6 +157,9 @@
     background-size: cover;
 }
 
+#section_progress {
+    margin-top: 3vh;
+}
 
 .ui.middle.aligned.three.column.grid {
     margin-top: 10vh;
