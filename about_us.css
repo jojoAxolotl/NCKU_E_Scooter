@@ -20,7 +20,18 @@
     position: relative;
     background-color: #f8edeb!important;
 }
-
+/*
+#main_image{background: url(./source/img/group_photo-10.png)}
+#main_image{
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: absolute;
+    width: 800px;
+    height: 500px;
+    top:100px;
+    left:300px;
+}
+*/
 
 #p1_title {
     position: absolute;
