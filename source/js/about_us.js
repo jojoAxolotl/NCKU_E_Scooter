@@ -59,5 +59,3 @@ $(document).on('click', '#about_scooter', function(){
 
 $('.ui.dropdown')
   .dropdown();
-
-
