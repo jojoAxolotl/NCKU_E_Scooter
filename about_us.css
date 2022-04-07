@@ -156,6 +156,10 @@
     /*border: none;*/
 }
 
+.ui.cards>.card {
+    margin-top: 10vh!important;
+}
+
 .column {
     /*border: solid ;
     border-color: aqua;*/
