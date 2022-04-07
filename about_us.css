@@ -34,11 +34,11 @@
 /*******************************type writer*************************************************************/
 .line-1 {
     position: relative;
-    top: 24%;
+    top: 25%;
     width: 24em;
     margin: 0 auto;
     border-right: 2px solid rgba(255, 255, 255, .75);
-    color: #faa307;
+    color: #54c8ff;
     font-size: 5em;
     text-align: center;
     margin-right: 33vw;
@@ -59,7 +59,7 @@
     }
 
     to {
-        width: 15em;
+        width: 13em;
     }
 }
 
@@ -157,6 +157,9 @@
     background-size: cover;
 }
 
+#section_progress {
+    margin-top: 3vh;
+}
 
 .ui.middle.aligned.three.column.grid {
     margin-top: 10vh;
