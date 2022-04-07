@@ -5,34 +5,6 @@
     box-sizing: border-box;
 }
 
-.loading {
-	background-color: #222;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100vw;
-	height: 100vh;
-	// animation-name: closeLoading;
-	// animation-duration: 3s;
-	animation: closeLoading 3s 1 ease-out forwards;
-	.ball-spin-fade-loader {
-		position: absolute;
-		top: 50%;
-		left: 50%;
-	}
-	@keyframes closeLoading {
-		0% {
-			opacity: 1;
-		}
-		50% {
-			opacity: 0.5;
-		}
-		100% {
-			opacity: 0;
-		}
-	}
-}
-
 .section {
     height : 100vh;
     display: flex;
