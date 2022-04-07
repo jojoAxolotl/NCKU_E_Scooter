@@ -170,6 +170,7 @@
 
 #section_progress {
     margin-top: 3vh;
+    position: fixed;
 }
 
 .ui.middle.aligned.three.column.grid {
